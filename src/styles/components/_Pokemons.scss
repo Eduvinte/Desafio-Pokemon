@@ -22,3 +22,23 @@
         @include button;
     }
 }
+
+@media (max-width: 768px) {
+    .container_Pokemons {
+        text-align: center;
+    }
+
+    .container_Pokemons img{
+        width: 300px;
+    }
+
+    
+    #selec_pokemon {
+        padding: 4% !important;
+        width: 75% !important;
+        border-radius: 25px;
+        outline: none;
+        box-shadow: 4px 6px 15px -8px;
+        margin-bottom: 5%;
+    }
+}

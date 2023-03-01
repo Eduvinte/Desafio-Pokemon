@@ -27,3 +27,21 @@
         margin-right: 5%;
     }
 }
+
+
+@media (max-width: 768px){
+    .container_secondary_list {
+        width: 95% !important;
+        height: 100% !important;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 4% !important;
+        margin-top: 55px;
+        align-items: center;
+        background-color: #f3f3f3;
+        border: 2px solid black;
+    }
+    
+}
+
