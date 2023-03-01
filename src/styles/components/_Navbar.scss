@@ -1,0 +1,15 @@
+
+#container_navbar {
+    background-color: $one_color;
+    padding: 20px;
+
+    #nav_options {
+        padding: 5px;
+        font-weight: bold;
+        font-family: 'Rampart One', cursive;
+    } 
+
+    .active {
+            color: rgb(255, 208, 0);
+    } 
+}

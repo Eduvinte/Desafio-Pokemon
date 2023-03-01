@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Rampart+One&family=Roboto:wght@400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+// Mixis
+@import './base/Mixis';
+
+// System's
+@import './system/Variables';
+
+// Componentes
+@import './components/ListPokemons';
+@import './components/Pokemons';
+@import './components/Home';
+@import './components/Navbar';
+

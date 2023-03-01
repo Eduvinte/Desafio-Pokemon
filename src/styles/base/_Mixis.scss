@@ -1,0 +1,21 @@
+@mixin primary_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+@mixin two_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+@mixin button {
+    width: 30%;
+    padding: 1%;
+}

@@ -1,0 +1,22 @@
+.container_home {
+    @include primary_container();
+
+    h2 {
+        padding: 5px;
+        font-weight: bold;
+        font-family: 'Rampart One', cursive;
+    }
+
+    img {
+        margin-top: 50px;
+    }
+
+    button {
+        width: 100%;
+        background-color: $three_color;
+        margin-top: 50%;
+        color: rgb(0, 0, 0);
+        font-family: 'Rampart One', cursive;
+    }
+
+}
